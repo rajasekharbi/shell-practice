@@ -8,4 +8,4 @@ echo "who is running this: $USER"
 echo "Home directory of user: $HOME"
 echo "PID of this script: $$" 
 sleep 50 &
-echo "pin of lass command in background: $1"
+echo "pin of lass command in background: $!"
