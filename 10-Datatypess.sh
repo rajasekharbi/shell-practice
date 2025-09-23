@@ -5,4 +5,4 @@ NUMBER2=200
 NAME=DEVOPS
 SUM=$(($NUMBER1+$NUMBER2+$NAME))
 
-echo "sum is: ${sum}"
+echo "SUM is: ${SUM}"
