@@ -10,6 +10,7 @@ echo "PID of this script: $$"
 sleep 50 &
 echo "pin of lass command in background: $!"
 
+#result
 
 #100.27.222.8 | 172.31.24.42 | t3.micro | https://github.com/rajasekharbi/shell-practice.git
 #[ ec2-user@ip-172-31-24-42 ~/shell-practice ]$ sh 09-special-variable.sh Rajasekhar modi pk
