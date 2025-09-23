@@ -7,5 +7,5 @@ echo "current directory: $pwd"
 echo "who is running this: $user"
 echo "Home directory of user: $home"
 echo "PID of this script: $$" 
-sleep 50 $
-echo pin of lass command in background: $1"
+sleep 50 &
+echo "pin of lass command in background: $1"
