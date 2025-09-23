@@ -1,6 +1,6 @@
 #!/bin/bash
 
-person1=$2
+person1=$1
 person2=$2
 
 
