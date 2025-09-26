@@ -16,3 +16,5 @@ echo "All leaders: ${LEADERS[@]}"
 echo "All leaders: ${LEADERS[0]}"
 
 echo "All leaders: ${LEADERS[3]}"
+
+echo "All leaders: ${LEADERS[*]}"
