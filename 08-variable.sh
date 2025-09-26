@@ -1,10 +1,11 @@
 #!/bin/bash
 
-START_TIME=$(date +%y)
+START_TIME=$(date +%s)
 
-sleep 10 
+sleep 5
 
-END_TIME=$(($END_TIME-$START_TIME))
+END_TIME=$(date +%Ys)
+$TOTAL_TIME=(($END_TIME-$START_TIME))
 
 echo "Script excuted in : $TOTAL_TIME Seconds"
 
