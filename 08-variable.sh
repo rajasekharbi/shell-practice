@@ -1,6 +1,6 @@
 #!/bin/bash
 
-START_TIME=$(date +%S)
+START_TIME=$(date +%y)
 
 sleep 10 
 
