@@ -18,4 +18,4 @@ echo "All leaders: ${LEADERS[0]}" #print first name
 
 #echo "All leaders: ${LEADERS[1]} ${LEADERS[2]} ${LEADERS[3]}"
 echo "All leaders: ${LEADERS[2]} #print second name
-echo "All leaders: ${LEADERS[*]} #print all names
+echo "All leaders: ${LEADERS[*]} #print all names has printed
