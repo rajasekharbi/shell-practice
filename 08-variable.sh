@@ -2,11 +2,11 @@
 
 START_TIME=$(date +%s)
 
-sleep 5
+sleep 10
 
 END_TIME=$(date +%s)
 
-$TOTAL_TIME=(($END_TIME-$START_TIME))
+$TOTAL_TIME=$(($END_TIME-$START_TIME))
 
 echo "Script excuted in : $TOTAL_TIME Seconds"
 
