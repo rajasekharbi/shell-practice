@@ -2,7 +2,8 @@
 
 NUMBER1=100
 NUMBER2=200
-NAME=DEVOPS
+NAME=DEVOPS #here devops is string it can't print
+
 SUM=$(($NUMBER1+$NUMBER2+$NAME))  #number could not add becuase it is string
 
 
