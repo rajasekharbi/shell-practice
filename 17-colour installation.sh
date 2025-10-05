@@ -1,6 +1,7 @@
 #!/bin/bash
 
 USERID=$(id -u)
+
 R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
@@ -20,7 +21,7 @@ VALIDATE(){ # functions receive inputs through args just like shell script args
     fi
 }
 
-dnf list installed mysql
+dnf list installed mysql  #checks the mysql is installed or not 
 # Install if it is not found
 if [ $? -ne 0 ]; then
     dnf install mysql -y
